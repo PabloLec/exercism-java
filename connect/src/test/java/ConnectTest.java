@@ -25,7 +25,6 @@ public class ConnectTest {
         assertThat(winner).isEqualTo(Winner.NONE);
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void xCanWinOnA1x1Board() {
 
@@ -60,7 +59,6 @@ public class ConnectTest {
 
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void onlyEdgesDoesNotMakeAWinner() {
 
@@ -81,7 +79,6 @@ public class ConnectTest {
 
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void illegalDiagonalDoesNotMakeAWinner() {
 
@@ -103,7 +100,6 @@ public class ConnectTest {
 
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void nobodyWinsCrossingAdjacentAngles() {
 
@@ -125,7 +121,6 @@ public class ConnectTest {
 
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void xWinsCrossingFromLeftToRight() {
 
@@ -147,7 +142,6 @@ public class ConnectTest {
 
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void oWinsCrossingFromTopToBottom() {
 
@@ -169,7 +163,6 @@ public class ConnectTest {
 
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void xWinsUsingConvolutedPath() {
 
@@ -191,7 +184,6 @@ public class ConnectTest {
 
     }
 
-    @Ignore("Remove to run test")
     @Test
     public void xWinsUsingASpiralPath() {
 
